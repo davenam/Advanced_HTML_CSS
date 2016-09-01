@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.one {
+    width: 400px;
+    height: 300px;
+    
+}
+
+
+.one:hover {
+    background-color: aqua;
+    border-radius: 40%;
+}
+
+.one:active {
+    background-color: white;
+    box-shadow: 10px 72px 34px 0px rgba(19,32,173,1);
+}
+
+
+.two {
+    width: 400px;
+    height: 500px;
+}
+
+a:link {
+    width: auto;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    }
+
+a:visited {
+    background-color: dimgrey; 
+}
+
+a:hover {
+   background-color: darkseagreen; 
+}
+
+
+a:active {
+    background-color: yellow;
+}
+
+
+#navigation li {
+  width:75px;
+  display: inline-block;
+  margin: 20px;
+  background-color: aquamarine;
+}
+
+#navigation li:first-child {
+    border-radius: 10% 0 0 10%;
+}
+
+#navigation li:last-child {
+    border-radius: 0 10% 10% 0;
+}
+
+#zebra {
+    width:auto;
+    clear:both;
+}
+
+#zebra p:nth-child(odd) {
+    background-color: dimgrey;
+}
+
+
+#other {
+    margin: 30px;
+    
+}
+
+#other div:first-of-type {
+    color:green;
+}
+#other div:last-of-type {
+    color: blue;
+}
+
+#from_end {
+    margin: 30px;
+}
+
+#from_end div:nth-last-of-type(2n+3) {
+    background-color: orange;
+}

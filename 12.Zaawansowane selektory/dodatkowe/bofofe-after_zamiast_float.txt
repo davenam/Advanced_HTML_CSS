@@ -1,0 +1,14 @@
+HTML
+<div class="rodzic clearfix" > </div>
+
+
+CSS
+
+.clearfix::before, .clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+

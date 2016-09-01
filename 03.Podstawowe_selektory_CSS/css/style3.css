@@ -1,0 +1,18 @@
+[type="submint"] {
+  background-color: blue;
+}
+
+[type*="email"] {
+  background-color: green;
+}
+
+
+[class*="important"] {
+  background-color: brown;
+}
+
+
+[class^="important"] {
+    background-color: pink;
+}
+

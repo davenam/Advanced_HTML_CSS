@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+}
+
+
+
+.banan {
+    width: 800px;
+    height: 1800px;
+    background-color: yellow;
+    margin: 50px;
+    
+}
+
+
+.mango {
+    width: 700px;
+    height: 700px;
+    background-color: lightgreen;
+    margin: 50px;
+    
+}
+
+.kiwi {
+    width: 600px;
+    height: 600px;
+    background-color: darkgreen;
+    margin: 50px;
+}
+
+.orange {
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    margin: 50px;
+}
+
+.white-flag {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 175px 100px
+}
+
+.red-circle {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100px;
+    height: auto;
+    text-align: center;
+}
+
+.tablica {
+    border-collapse:collapse;
+    border-spacing:0;
+    border: 1px solid black;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color: black;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    
+}
+
+
+tr:first-of-type * {
+    background-color: darkblue;
+    color: white;
+    
+}
+
+tr:nth-of-type(even) {
+    background-color: aqua;
+}
+tr:nth-of-type(odd) {
+    background-color:deepskyblue;
+}
+
+
+td:hover {
+    color:red;
+}

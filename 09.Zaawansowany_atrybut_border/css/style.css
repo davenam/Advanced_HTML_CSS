@@ -1,0 +1,57 @@
+.div1 {
+    width: 300px;
+    height: 200px;
+    border: 1px;
+    border-color: darkgreen;
+    border-style: solid;
+    margin-top: 100px;
+    padding: 40px;
+    float: left;
+    border-radius: 50%;
+    background-color: aquamarine;
+    
+    
+}
+
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    border: 1px;
+    border-color: darkgreen;
+    border-style: solid;
+    margin-top: 100px;
+    padding: 40px;
+    float: left;
+    border-radius: 100%;
+    background-color: darkgoldenrod;
+    
+}
+
+.div3 {
+    width: 200px;
+    height: 200px;
+    border-color: #BADA55;
+    border-style: solid;
+    margin-top: 100px;
+    padding: 40px;
+    float: left;
+    border-radius: 0px 150px 0px 150px;
+    background: #BADA55;
+}
+
+
+.div4 {
+    width: 200px;
+    height: 200px;
+    border-color: #BADA55;
+    border-style: solid;
+    margin-top: 100px;
+    float: left;
+    padding: 40px;
+    border-radius: 0px 150px 0px 150px;
+    background: #BADA55;
+    box-shadow: 0 0 5px 5px rgb(255,0,0), 0 -10px 10px 0 rgba(0,0,255,1), 0 10px 0 0 rgba(199,10,10,0.15),100px 200px 0 -9px rgba(110,110,110,1);
+   
+}
+

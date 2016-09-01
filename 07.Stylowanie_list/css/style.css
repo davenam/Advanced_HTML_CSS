@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 100;
+    box-sizing: border-box;
+}
+
+
+
+ul {
+    list-style-type: square
+}
+
+
+#menu li { 
+color: #116493;
+list-style-type: none;
+display: inline-block;
+text-align: center;
+}
